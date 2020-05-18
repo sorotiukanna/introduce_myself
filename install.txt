@@ -10,4 +10,4 @@ npm i gulp --save-dev
 npm init
 
 
-npm i gulp-sass gulp-sass-glob browser-sync gulp-concat gulp-uglify gulp-cssnano gulp-rename del  gulp-cache gulp-autoprefixer  gulp-flatten gulp-sourcemaps   --save-dev
+npm i gulp-sass gulp-sass-glob browser-sync gulp-concat gulp-uglify gulp-cssnano gulp-rename del  gulp-cache gulp-autoprefixer  gulp-flatten gulp-sourcemaps --save-dev

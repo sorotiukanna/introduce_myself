@@ -1,4 +1,4 @@
-var gulp = require('gulp'), //-----------------------------------Подключаем Gulp
+let gulp = require('gulp'), //-----------------------------------Подключаем Gulp
   sass = require('gulp-sass'), //--------------------------------Подключаем Sass пакет,
   sassGlob = require('gulp-sass-glob'), //-----------------------Импорт файлов по маске ввода
   browserSync = require('browser-sync'), //----------------------Подключаем Browser Sync
@@ -98,22 +98,22 @@ gulp.task('clean', function() {
 
 gulp.task('build', ['clean', 'sass', 'css-libs', 'scripts'], function() {
 
-  var buildCss = gulp.src([ //------------------------------------Переносим библиотеки и файл стилей в продакшен
+  let buildCss = gulp.src([ //------------------------------------Переносим библиотеки и файл стилей в продакшен
       'app/css/main.css',
       'app/css/libs.min.css'
     ])
     .pipe(gulp.dest('dist/css'))
 
-  var buildFonts = gulp.src('app/fonts/**/*') //------------------Переносим шрифты в продакшен
+  let buildFonts = gulp.src('app/fonts/**/*') //------------------Переносим шрифты в продакшен
     .pipe(gulp.dest('dist/fonts'))
 
-  var buildImg = gulp.src('app/img/**/*') //----------------------Переносим картинки в продакшен
+  let buildImg = gulp.src('app/img/**/*') //----------------------Переносим картинки в продакшен
     .pipe(gulp.dest('dist/img'))
 
-  var buildJs = gulp.src('app/js/**/*') //------------------------Переносим скрипты в продакшен
+  let buildJs = gulp.src('app/js/**/*') //------------------------Переносим скрипты в продакшен
     .pipe(gulp.dest('dist/js'))
 
-  var buildHtml = gulp.src('app/**/*.html') //--------------------Переносим HTML в продакшен
+  let buildHtml = gulp.src('app/**/*.html') //--------------------Переносим HTML в продакшен
     .pipe(gulp.dest('dist'));
 
 });
