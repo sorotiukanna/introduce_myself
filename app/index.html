@@ -17,7 +17,7 @@
     <div class="karkas">
         <header class="main-header main-one">
             <nav class="main-menu menu-place">
-                <a href="#" class="home-icon">
+                <a href="#" id="home" class="active">
                     <div class="icon">
                         <svg version="1.1" id="icon_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 184.347 184.347" style="enable-background:new 0 0 184.347 184.347;"
@@ -116,9 +116,10 @@
                        </g>
                    </g>
                    </svg>
+                   <div class="icon-pointer"></div>
                     </div>
                 </a>
-                <a href="#" class="about_me">
+                <a href="#" id="aboutMe">
                     <div class="icon">
                         <svg version="1.1" id="icon_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;"
@@ -294,16 +295,17 @@
                        </g>
                    </g>
                    </svg>
+                   <div class="icon-pointer"></div>
                     </div>
                 </a>
-                <a href="#" class="my_works">
+                <a href="#" id="myWorks">
                     <div class="icon">
                         <svg version="1.1" id="icon_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 192.562 192.562" style="enable-background:new 0 0 192.562 192.562;"
                         xml:space="preserve">
                    <g>
                        <g>
-                           <path id="line11" fill="none" stroke="#F3FFFE" stroke-width="3" stroke-dasharray="1506" stroke-dashoffset="1506"
+                           <path id="line11" fill="none" stroke="#F3FFFE" stroke-width="5" stroke-dasharray="1506" stroke-dashoffset="1506"
                                 d="M189.676,22.43c-0.183-1.301-1.708-2.815-3.004-3.004c-35.083-5.129-69.774-4.239-104.924-6.946
                                c-20.225-1.558-53.19-8.31-71.103,4.662c-15.9,11.514-9.653,44.759-8.31,60.743c1.736,20.655-3.88,47.376,5.194,66.375
                                c0.08,0.167,0.179,0.307,0.276,0.446c-0.892,1.759-0.342,4.464,1.939,5.076c13.122,3.523,26.786,4.176,40.48,3.583
@@ -329,7 +331,7 @@
                                    calcMode="linear"
                                /> 
                                </path>
-                           <path id="line12" fill="none" stroke="#F3FFFE" stroke-width="3" stroke-dasharray="1506" stroke-dashoffset="1506"
+                           <path id="line12" fill="none" stroke="#F3FFFE" stroke-width="5" stroke-dasharray="1506" stroke-dashoffset="1506"
                                 d="M167.387,44.059c-1.644-2.272-4.783-1.377-5.08,1.376c-0.103,0.959-0.138,1.938-0.186,2.914
                                c-29.458-7.199-65.019-4.083-90.646,11.846c-19.678,12.231-46.555,35.016-42.64,61.021c0.185,1.229,1.068,1.709,2.015,1.688
                                c0.437,0.323,0.957,0.57,1.648,0.592c44.116,1.369,88.399,1.362,132.535,1.029c2.685-0.021,3.91-2.2,3.76-4.267
@@ -375,9 +377,10 @@
                        </g>
                    </g>
                    </svg>
-                    </div>
+                   <div class="icon-pointer"></div>
+                </div>
                 </a>
-                <a href="#" class="contact_me">
+                <a href="#" id="contactMe">
                     <div class="icon">
                         <svg version="1.1" id="icon_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 195.815 195.815" style="enable-background:new 0 0 195.815 195.815;"
@@ -519,15 +522,16 @@
                        </g>
                    </g>
                    </svg>
-                    </div>
+                   <div class="icon-pointer"></div>
+                </div>
                 </a>
             </nav>
         </header>
         <main class="main-body main-one">
-            <section class="first home">
+            <section class="home" id="first">
                 <div class="title">
-                    <!-- <h1 class="h1">Name Surname</h1> -->
-                    <!-- <p class="subtitle">Junior front-end developer</p> -->
+                    <h1 class="h1">Anna Soroituk</h1>
+                    <p class="subtitle">Junior front-end developer</p>
                 </div>
                 <div class="logo">
                     <div class="button">
@@ -535,22 +539,23 @@
                     </div>
                 </div>
             </section>
-            <section class="second about_me">
-                <!-- <h2 class="h2">About me</h2> -->
-                <!-- <p class="text">something</p> -->
+            <section class="about_me" id="second">
+                <h2 class="h2">About me</h2>
+                <p class="text">something</p>
             </section>
-            <section class="third works">
-                <!-- <h2 class="h2">Works</h2> -->
-                <p class="w_text"></p>
-                <div class="gallery"></div>
+            <section class="works" id="third">
+                <h2 class="h2">Works</h2>
+                <p class="text">qwerty</p>
+                <div class="gallery"> </div>
             </section>
-            <section class="fourth contact_me">
-                <!-- <div class="form">
+            <section class="contact_me" id="fourth">
+                <h2 class="h2">Contact Me</h2>
+                <div class="form">
                     <input type="text" id="name" class="name" placeholder="Your name">
                     <input type="email" id="adress" class="adress" placeholder="Your email-adress">
                     <textarea id="mess" class="mess" placeholder="Your message"></textarea>
                     <div class="button"></div>
-                </div> -->
+                </div>
             </section>
         </main>
         <footer class="main-footer main-one">

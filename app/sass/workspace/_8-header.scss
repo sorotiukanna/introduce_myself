@@ -1,9 +1,37 @@
+// .main-header{
+//     width: 50%; v adaptiv
+// }
 .main-menu{
+    text-align: center;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+    padding-top: 2.5%; 
+    // padding-bottom: 2.5%; v adaptiv
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .icon{
     position: relative;
-    width: 65px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
+}
+.icon:hover{
+    filter: drop-shadow(0 0 5px rgba($dark-red,0.9));
+}
+.icon-pointer{
+    position: absolute;
+    left: 25%;
+    top: 125%;
+    bottom: -75%;
+    background-color: $white;
+    transform: rotate(45deg);
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+}
+.active{
+    .icon-pointer{
+        opacity: 1;
+    }
 }

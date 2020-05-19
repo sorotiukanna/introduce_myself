@@ -1,0 +1,70 @@
+
+//------------------------------------------------------------------------------------------------------------------------------------//
+// first section //
+#first{
+    display: block;
+}
+.title{
+    background-color: $white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.h1{
+    font-family: 'Rancho', cursive;
+    font-size: 24px;
+    color: $black;
+}
+.subtitle{
+    font-family: 'Handlee', cursive;
+    font-style: 18px;
+    margin-top: 5px;
+    color: $black;
+}
+//------------------------------------------------------------------------------------------------------------------------------------//
+// second section //
+#second{
+    display: none;
+    background-color: $white;
+    text-align: center;
+}
+.h2{
+    font-family: 'Handlee', cursive;
+    font-style: 18px;
+    margin-top: 5px;
+    color: $black;
+    background-color: $white;
+}
+.text{
+    font-family: 'Handlee', cursive;
+    font-style: 18px;
+    margin-top: 5px;
+    color: $black;
+    background-color: $white;
+}
+//------------------------------------------------------------------------------------------------------------------------------------//
+// third section //
+#third{
+    display: none;
+    text-align: center;
+}
+.gallery{
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/scr1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 85px;
+}
+//------------------------------------------------------------------------------------------------------------------------------------//
+// fourth section //
+#fourth{
+    display: none;
+    text-align: center;
+}
+.form{
+    margin-top: 15px;
+}
+//------------------------------------------------------------------------------------------------------------------------------------//
