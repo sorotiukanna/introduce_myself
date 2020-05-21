@@ -178,8 +178,8 @@ table {
 .active .icon-pointer {
   opacity: 1; }
 
-#first {
-  display: block; }
+.home {
+  display: none; }
 
 .title {
   background-color: #F3FFFE;
@@ -200,7 +200,7 @@ table {
   margin-top: 5px;
   color: #16051f; }
 
-#second {
+.about_me {
   display: none;
   background-color: #F3FFFE;
   text-align: center; }
@@ -219,7 +219,7 @@ table {
   color: #16051f;
   background-color: #F3FFFE; }
 
-#third {
+.works {
   display: none;
   text-align: center; }
 
@@ -231,11 +231,14 @@ table {
   background-size: cover;
   margin-left: 85px; }
 
-#fourth {
+.contact_me {
   display: none;
   text-align: center; }
 
 .form {
   margin-top: 15px; }
+
+.active-panel {
+  display: block; }
 
 /*# sourceMappingURL=../maps/main.css.map */
